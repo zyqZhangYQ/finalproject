@@ -1,0 +1,15 @@
+.\objects\mainfinal.o: ..\src\mainfinal.c
+.\objects\mainfinal.o: C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h
+.\objects\mainfinal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h
+.\objects\mainfinal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mainfinal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\objects\mainfinal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\objects\mainfinal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\objects\mainfinal.o: C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h
+.\objects\mainfinal.o: ..\src\ADC.h
+.\objects\mainfinal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mainfinal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mainfinal.o: ..\src\KEY.h
+.\objects\mainfinal.o: ..\src\UART.h
+.\objects\mainfinal.o: ..\src\LCD.h
+.\objects\mainfinal.o: ..\src\temp.h

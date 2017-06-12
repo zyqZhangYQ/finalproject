@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=ZB4Y8-34QK4-FUK4P-M9GAQ-JRC7V-ZWX1T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMCM1.DLL V1.14.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TARMCM1.DLL V1.10.0.0
+ 
+<h2>Project:</h2>
+C:\Users\apple 1\Desktop\finalproject\out\finalproject.uvprojx
+Project File Date:  06/11/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling ADC.c...
+compiling UART.c...
+compiling mainfinal.c...
+..\src\mainfinal.c(24): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  	  LCD_DisplayStr(0,0,GcRcvBuf);
+..\src\mainfinal.c: 1 warning, 0 errors
+compiling delay.c...
+compiling LCD.c...
+compiling temp.c...
+..\src\temp.c(95): warning:  #940-D: missing return statement at end of non-void function "temp"
+  }
+..\src\temp.c(96): warning:  #1-D: last line of file ends without a newline
+  	
+..\src\temp.c: 2 warnings, 0 errors
+assembling startup_LPC11xx.s...
+compiling KEY.c...
+..\src\KEY.c(53): warning:  #940-D: missing return statement at end of non-void function "KEY_get"
+  }
+..\src\KEY.c: 1 warning, 0 errors
+compiling system_LPC11xx.c...
+linking...
+Program Size: Code=6368 RO-data=464 RW-data=20 ZI-data=628  
+".\Objects\finalproject.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:DSP:1.4.6
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: DSP Version: 1.4.6
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1100_DFP.1.4.0.pack
+                Keil::Device:Startup:1.0.0
+                NXP LPC1100 Series Device Support
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\apple 1\Desktop\finalproject\out\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:DSP:1.4.6
+      Library file:  CMSIS\Lib\ARM\arm_cortexM0l_math.lib
+      Include file:  CMSIS\Include\arm_math.h
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_LPC11xx.c
+      Source file:   Device\Source\ARM\startup_LPC11xx.s
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
